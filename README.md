@@ -1,17 +1,17 @@
-SQL Data Analysis Repository
+#SQL Data Analysis Repository
 This repository contains a collection of SQL scripts and queries that demonstrate my skills in data analysis using SQL. The scripts cover various data manipulation and analysis tasks, showcasing different SQL features and techniques.
 
-Introduction
+##Introduction
 In this repository, you will find a set of SQL scripts that demonstrate my proficiency in data analysis using SQL. These scripts are designed to showcase my ability to extract, manipulate, and analyze data using SQL queries. Whether you're interested in exploring SQL techniques for data analysis or assessing my skills, this repository provides a valuable resource.
 
-Usage
+##Usage
 To make use of the SQL scripts in this repository, you'll need access to a database management system (DBMS) such as MySQL, PostgreSQL, or SQL Server. Follow these steps to get started:
 
 Execute the SQL scripts using your preferred method (e.g., command line, database client, IDE).
 
 Explore the scripts and modify them as needed to suit your specific requirements or data.
 
-Scripts
+##Scripts
 Here is a list of SQL scripts available in this repository:
 
 CovidDeathsExploration.sql - This script explores COVID deaths data, analyzing trends, demographics, and geographical distribution of deaths. It includes SQL queries that calculate aggregate statistics, perform joins, and filter data based on various criteria.
@@ -20,8 +20,8 @@ Music_store_data_exploration.sql - This script focuses on analyzing music store 
 
 Feel free to explore and use these scripts to gain insights into SQL data analysis techniques specific to COVID deaths and music store data.
 
-Examples
+##Examples
 In the examples directory, you will find additional real-world examples demonstrating the application of SQL for data analysis. Each example includes a description of the problem statement, the SQL query used to solve it, and the expected output.
 
-Contributing
+##Contributing
 If you have any suggestions, improvements, or additional SQL scripts to contribute, I would be more than happy to review and merge your pull requests. Feel free to open an issue if you encounter any problems or have questions.
