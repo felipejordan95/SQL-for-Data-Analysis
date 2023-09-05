@@ -1,5 +1,5 @@
--- 1. Consolidating DAta into one table
--- Creating new table to allows data from diferent files
+-- 1. Consolidating data into one table
+-- Creating a new table to allow data from different files
 CREATE TABLE Divvy_Trips_2019_all ( 
 	   [trip_id] int
       ,[start_time] datetime2
@@ -39,7 +39,7 @@ SET [day_of_week] = DATEPART(WEEKDAY, [start_time])
 select top 1000 * 
 From Divvy_Trips_2019_all
 
---------------------------------Adding data to meged table----------------------------------
+--------------------------------Adding data to merged table----------------------------------
 
 -- Insert Data from this table Q1
 insert into Divvy_Trips_2019_all
@@ -188,7 +188,7 @@ from Zscore_table
 where Zscore >3
 order by Zscore DESC
 
--- Deletting outliers
+-- Deleting outliers
 -- Identify and remove outliers in trip_duration column using Z-score
 DECLARE @ZScoreThreshold FLOAT = 3.0;
 
